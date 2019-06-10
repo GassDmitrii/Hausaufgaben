@@ -1,0 +1,50 @@
+@import url('./Fonts/Lato/Lato.css');
+
+body{
+    margin: 0;
+    font-family: Lato; 
+    font-weight: 20px;
+}
+.block-content1 {
+    background: 
+                linear-gradient(0deg, rgba(34,193,195,0.3) 0%, rgba(253,187,45,0.2) 100%),
+                url(./Image/heg.jpg) no-repeat center/
+                cover; 
+    width: 500px;
+    height: 500px;
+}
+
+.block-content2 {
+    background: 
+                linear-gradient(90deg, rgba(131,58,180,0.5) 0%, rgba(253,29,29,0.4) 50%, rgba(252,176,69,0.5) 100%),
+                url(./Image/heg2.jpg) no-repeat center/
+                cover; 
+    width: 500px;
+    height: 500px;
+}
+.string1 {
+    font-size: 50px;
+    letter-spacing: initial;
+}
+
+.string2 {
+    margin: -10px;
+    font-size: 10px;
+    font-weight: 20px;
+}
+
+.string3 {
+    font-size: 50px;
+    text-align: inherit;
+}
+
+.string4 {
+    margin: 30px; /*что бы мордочки не закрывал текст */
+    font-size: 50px;
+    text-shadow: 10px 10px 15px lightcoral;
+}
+
+.string5 {
+    font-size: 15px;
+    line-height: 30px;
+}
